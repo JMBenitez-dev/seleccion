@@ -8,10 +8,10 @@ export class Masajista extends Seleccion{
      super();  
      this.lesionDeFutbolista = lesiones;
     }
-     getLesion():any{
+     getLesion():any{ 
         return this.lesionDeFutbolista;
      }
-     setLesion(lesiones:string):void{
+     setLesion(lesiones:string):void{ 
         this.lesionDeFutbolista = lesiones;
      }
      tratarLesion(lesiones: any):void{
